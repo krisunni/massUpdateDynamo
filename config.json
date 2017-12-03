@@ -1,0 +1,8 @@
+{
+  "region": "us-east-1",
+  "profile": "dev",
+  "tableName": "table Name",
+  "startID": "123456",
+  "endID": "78945",
+  "limit": 10
+}

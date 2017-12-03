@@ -1,0 +1,15 @@
+{
+  "TableName": "table Name",
+  "FilterExpression": "#Id BETWEEN :idFrom AND :idTo",
+  "Limit": 10,
+  "ExpressionAttributeNames": {
+    "#Id": "Id"
+  },
+  "ExpressionAttributeValues": {
+    ":idFrom": "123456",
+    ":idTo": "78945"
+  },
+  "ExclusiveStartKey": {
+    "Id": null
+  }
+}
