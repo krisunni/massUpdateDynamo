@@ -1,5 +1,13 @@
 # updateDynamo
 
+This tool can be used to recursivly update AWS Dynamo table. Add UpdateExpression in [app.js line 33](https://github.com/krisunni/massUpdateDynamo/blob/master/app.js#L33)
+```
+UpdateExpression: "",
+        ExpressionAttributeValues: {
+        },
+        ReturnValues: "UPDATED_NEW"
+```
+
 To run updateDynamo
 1. `npm install`
 2. update `config.json`
