@@ -15,7 +15,7 @@ To run updateDynamo
       
  
 
-To run for verizon dev just run `node run.js`
+To update `table Name` with postfix `dev` execute `node run.js`
 This tool will run scans and use last key continue paginate.
 
 To run the test, install dev dependencies 
